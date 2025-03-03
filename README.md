@@ -1,51 +1,50 @@
-# Welcome to your Expo app 👋
+The FIU Event App is a mobile application designed to help students at Florida International University (FIU) stay updated with college news, register for events, and manage their accounts. The app provides features like user authentication (sign-up and sign-in), profile management, and event registration.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Features
+User Authentication:
 
-## Get started
+Sign up with email, password, and profile details.
 
-1. Install dependencies
+Sign in with email and password.
 
-   ```bash
-   npm install
-   ```
+Firebase Authentication for secure user management.
 
-2. Start the app
+Profile Management:
 
-   ```bash
-    npx expo start
-   ```
+Upload and update profile pictures using Cloudinary.
 
-In the output, you'll find options to open the app in a
+Save user details (first name, last name, email) to a backend database.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Event Registration:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+View and register for upcoming college events.
 
-## Get a fresh project
+Cross-Platform Support:
 
-When you're ready, run:
+Works on both iOS and Android (with platform-specific adjustments).
 
-```bash
-npm run reset-project
-```
+Technologies Used
+Frontend
+React Native: A framework for building cross-platform mobile apps.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Expo: A toolchain for React Native development, providing easy setup and deployment.
 
-## Learn more
+Expo Router: For navigation between screens in the app.
 
-To learn more about developing your project with Expo, look at the following resources:
+React Native Async Storage: For local storage of user data.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Backend
+Firebase Authentication: For user authentication (sign-up, sign-in).
 
-## Join the community
+Cloudinary: For image upload and storage (profile pictures).
 
-Join our community of developers creating universal apps.
+Axios: For making HTTP requests to the backend API.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-# FIU-EVENT
+PostgreSQL: For storing user data and event information.
+
+Other Tools
+TypeScript: For type-safe JavaScript development.
+
+React Native Toast Message: For displaying notifications/alerts.
+
+React Native Vector Icons: For icons in the app. 
